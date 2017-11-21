@@ -6,8 +6,8 @@ default: &default
 development:
   <<: *default
   database: sw-portfolio_development
-  user:
-  password:
+  user: ENV['DB_USERNAME']
+  password: ENV['DB_PASSWORD']
 
 test:
   <<: *default
