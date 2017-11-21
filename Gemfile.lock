@@ -65,6 +65,12 @@ GEM
       activesupport (>= 4.2.0)
     haml (4.0.7)
       tilt
+    haml-rails (0.9.0)
+      actionpack (>= 4.0.1)
+      activesupport (>= 4.0.1)
+      haml (>= 4.0.6, < 5.0)
+      html2haml (>= 1.0.1)
+      railties (>= 4.0.1)
     html2haml (2.2.0)
       erubis (~> 2.7.0)
       haml (>= 4.0, < 6)
@@ -190,6 +196,8 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   erb2haml
+  haml
+  haml-rails
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   mysql2
