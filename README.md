@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Specificatons
+- ruby 2.1.4
+- Rails 5.1
+- Mysql database
+- Vuejs for frontend
+- patternfly/bootstrap for css framework
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## concept
+- webapp for managing portfolio showcase
+- showcase for projects
+- overview of skills
+- overview of work experience
